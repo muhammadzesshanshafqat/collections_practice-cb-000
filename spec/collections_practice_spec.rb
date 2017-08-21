@@ -30,6 +30,13 @@ describe 'collections practice' do
     end
   end
 
+  #Advanced 2
+  describe 'swap_elements_from_to' do
+    it 'receives array, index and destination_index and swaps them' do
+      expect(swap_elements_from_to([1,2,3,4,5],2,3)).to eq([1,2,4,3,5])
+    end
+  end
+
   # Question 5
   describe '#reverse_array' do
     it 'reverse the order of an array' do
